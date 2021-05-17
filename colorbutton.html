@@ -1,0 +1,16 @@
+<link rel="stylesheet"  type="text/css"  href="color.css">
+<body>
+
+<button>CLICK HERE</button>
+
+<script type="text/javascript">
+var color=["red","yellow","lightblue","green","pink","orange","purple"];
+var i=0;
+document.querySelector("button").addEventListener("click",function(){
+    i=i<color.length ? ++i : 0;
+document.querySelector("body").style.background =color[i]
+})
+</script>
+</body>
+
+
